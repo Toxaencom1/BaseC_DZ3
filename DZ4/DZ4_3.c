@@ -10,29 +10,29 @@
 */
 int main()
 {
-    int a,num;
+    int a, num;
     printf("Enter the number: ");
     do
     {
         scanf("%d", &a);
-        if (a < 0 )
+        if (a < 0)
         {
             printf("Incorrect number\nEnter the number: ");
         }
-    } while (a < 0 );
+    } while (a < 0);
     bool flag = true;
-    while (a!=0)
+    while (a != 0)
     {
-        num=a%10;
-        if (num%2!=0)
+        num = a % 10;
+        if (num % 2 != 0)
         {
             flag = false;
             break;
         }
-        a/=10; 
+        a /= 10;
     }
     printf("All numbers is even? - ");
-    printf((flag)?"Yes":"No");
-        
+    printf((flag) ? "Yes" : "No");
+
     return 0;
 }

@@ -14,13 +14,13 @@ int main()
     do
     {
         scanf("%d", &a);
-        if (a < 0 )
+        if (a < 0)
         {
             printf("Incorrect number\nEnter the number: ");
         }
-    } while (a < 0 );
+    } while (a < 0);
 
-    printf((a>99 && a<1000)?"Yes":"No");
-        
+    printf((a > 99 && a < 1000) ? "Yes" : "No");
+
     return 0;
 }

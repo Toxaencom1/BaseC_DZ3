@@ -11,23 +11,23 @@
 */
 int main()
 {
-    int a,b,res=0;
+    int a, b, res = 0;
     printf("Enter the numbers 'a' and 'b': ");
     do
     {
-        scanf("%d%d", &a,&b);
-        if (a > b || a<0 || a>100 || b>100)
+        scanf("%d%d", &a, &b);
+        if (a > b || a < 0 || a > 100 || b > 100)
         {
             printf("Incorrect numbers\nEnter the number: ");
         }
-    } while (a > b || a<0 || a>100 || b>100);
+    } while (a > b || a < 0 || a > 100 || b > 100);
 
-    while (a<=b)
+    while (a <= b)
     {
-        res += a*a; 
+        res += a * a;
         a++;
     }
     printf("The sum of the squares is: %d", res);
-        
+
     return 0;
 }
