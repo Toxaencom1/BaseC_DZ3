@@ -17,11 +17,11 @@ int main()
     do
     {
         scanf("%d", &a);
-        if (a < 0)
+        if (a < 10)
         {
             printf("Incorrect number\nEnter the number: ");
         }
-    } while (a < 0);
+    } while (a < 10);
 
     printf("Result is: ");
     for (int j = 10; j <= a; j++)
