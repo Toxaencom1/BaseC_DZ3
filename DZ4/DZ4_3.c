@@ -10,7 +10,7 @@
 */
 int main()
 {
-    int a,b;
+    int a,num;
     printf("Enter the number: ");
     do
     {
@@ -23,8 +23,8 @@ int main()
     bool flag = true;
     while (a!=0)
     {
-        b=a%10;
-        if (b%2!=0)
+        num=a%10;
+        if (num%2!=0)
         {
             flag = false;
             break;

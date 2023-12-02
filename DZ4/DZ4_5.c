@@ -13,7 +13,7 @@
 */
 int main()
 {
-    int a,b,c;
+    int a,num,fullNum;
     printf("Enter the number: ");
     do
     {
@@ -28,15 +28,15 @@ int main()
     printf("Result is: ");
     for (int j = 10; j <= a; j++)
     {
-        c=j;
+        fullNum=j;
         int arr[10];
         int counter = 0;
-        while (c!=0)
+        while (fullNum!=0)
         {
-            b=c%10;
-            arr[counter] = b;
+            num=fullNum%10;
+            arr[counter] = num;
             counter++;            
-            c/=10;            
+            fullNum/=10;            
         }
         int multy=1,sum=0;
         for (int i = 0; i < counter; i++)

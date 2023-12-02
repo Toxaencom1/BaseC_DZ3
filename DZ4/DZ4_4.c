@@ -11,7 +11,7 @@
 */
 int main()
 {
-    int a,b,c=0;
+    int a,num,resultNum=0;
     printf("Enter the number: ");
     do
     {
@@ -24,13 +24,13 @@ int main()
     
     while (a!=0)
     {
-        b=a%10;
-        c+=b;        
+        num=a%10;
+        resultNum+=num;        
         a/=10;
-        c*=10;
+        resultNum*=10;
     }
-    c/=10;
-    printf("\n%d",c);
+    resultNum/=10;
+    printf("\n%d",resultNum);
         
     return 0;
 }
