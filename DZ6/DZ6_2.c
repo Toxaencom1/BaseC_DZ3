@@ -24,8 +24,7 @@ void print_num(int numA, int numB)
     else
     {
         printf("%d ", numB);
-    }
-    return 0;
+    }    
 }
 
 int main()
