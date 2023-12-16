@@ -17,7 +17,8 @@ int recurs_power(int n, int p)
 
 int main()
 {
-    int n, p;    
+    int n, p; 
+    printf("Enter two integers -100 >= n >= 100 and 0 >= p >= 100: ");   
     do
     {
         scanf("%d%d", &n, &p);

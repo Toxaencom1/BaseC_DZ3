@@ -22,6 +22,7 @@ int main()
     int arr[100];
     int num;
     int j = 0;
+    printf("Enter the sequence of non-zero integers: ");
     scanf("%d", &num);
     while (num != 0)
     {

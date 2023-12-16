@@ -13,8 +13,7 @@ void print_num(int num)
     {
         print_num(num / 10);
         printf("%d ", num % 10);
-    }
-    return 0;
+    }    
 }
 
 int main()

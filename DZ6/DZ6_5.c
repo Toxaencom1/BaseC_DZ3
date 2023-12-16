@@ -21,7 +21,7 @@ int acounter(void)
 
 int main()
 {
-
+    printf("Enter a string consisting of English letters, spaces and punctuation marks. At the end of the line there is a '.': ");
     int counter = acounter();
     printf("%d", counter);
 
